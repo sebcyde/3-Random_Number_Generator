@@ -29,11 +29,12 @@ while True:
         continue
 
     if user_guess == r:
-        print("You got it!")
+        print("Nice!")
         break
       
-    else: 
-        print("You got it wrong!")
-        continue
+    elif user_guess > r:
+        print("Too high...")
+    else:
+        print("Too low...")
 
 print("You got it in", guesses, "guesses")
