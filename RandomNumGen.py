@@ -16,8 +16,6 @@ else:
 r = random.randint(0, top_of_range)
 guesses = 0
 
-print(r)
-
 while True:
     guesses += 1
     user_guess = input("Make a guess: ")
